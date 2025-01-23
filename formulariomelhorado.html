@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Empresa Ficticia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Empresa Ficticia</h1>
+    </header>  
+      </body>
+    <div class="container">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Preencha o formulário abaixo para enviar suas informações ou perguntas:</p>
+            <label for="name">Nome:</label>
+            <input type="text" class="form-control" placeholder="Seu nome">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" placeholder="Email">
+            <br>
+            <label for="phone">Telefone:</label>
+            <input type="phone" class="form-control" placeholder="Telefone">
+            <br>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" class="form-control" rows="4" required></textarea>
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar
+
+                <button class="btn btn-primary" onclick="changeBackgroundColor()">Trocar Cor</button>
+            </div>
+        
+            <script>
+                function changeBackgroundColor() {
+                    const body = document.body;
+                    const currentColor = body.style.backgroundColor;
+                    body.style.backgroundColor = currentColor === "gray" ? "white" : "gray";
+                }
+            </script>
+            
+        </form>
+    </div>
+    <footer>
+        &copy; 2023 Empresa Ficticia. Todos os direitos reservados.
+        <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">apenas</a>
+    </footer>
+</body>
+</html>
